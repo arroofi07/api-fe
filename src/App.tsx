@@ -29,7 +29,7 @@ function App() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3000/users/register', data);
+      const response = await axios.post('https://overflowing-analysis-production.up.railway.app/users/register', data);
       console.log(response.data);
       // Reset form setelah berhasil registrasi
       setName('');
